@@ -1,0 +1,10 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+.aistudio/
+public/assets/aistudio/Paste_October_26__2026_-_6_43PM_a28d6a8d
