@@ -2,6 +2,7 @@ services:
   - type: web
     name: najhonja
     runtime: node
+    plan: free
     buildCommand: npm install --legacy-peer-deps --no-audit --no-fund && npm run build
     startCommand: npm run start
     envVars:
